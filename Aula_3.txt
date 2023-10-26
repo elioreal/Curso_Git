@@ -1,0 +1,176 @@
+    1  ls
+    2  ls
+    3  clear
+    4  ls -a
+    5  ls..
+    6  clear
+    7  ls ..
+    8  pwd
+    9  cd
+   10  pwd
+   11  ls
+   12  cd Documents
+   13  pwd
+   14  cd ..
+   15  pwd
+   16  cd documents
+   17  ls
+   18  pwd
+   19  cd ~
+   20  pwd
+   21  ls
+   22  cd desktop
+   23  ls
+   24  cd ~
+   25  ls
+   26  cd documents
+   27  ls
+   28  cd totti
+   29  ls
+   30  pwd
+   31  ls
+   32  cd programas 
+   33  pwd
+   34  ls
+   35  cd git
+   36  ls
+   37  mkdir teste
+   38  ls
+   39  cd teste
+   40  ls
+   41  mkdir pasta1 pasta2
+   42  ls
+   43   mkdir -p pasta3/old
+   44  ls
+   45  ls pasta3
+   46  rm -r pasta3
+   47  ls
+   48  cat pasta1
+   49  mkdir -p pasta3/old
+   50  ls
+   51  cat pasta3
+   52  cd pasta3
+   53  touch texto.txt
+   54  ls
+   55  cd ..
+   56  ls
+   57   mv pasta3 'pasta 3'
+   58  ls
+   59  ls
+   60  echo 'hola'
+   61   echo 'hola' > texto.txt
+   62  cd pasta 3
+   63  ls
+   64  cd 'pasta 3'
+   65  ls
+   66  echo 'nuevo mensaje' > texto.txt
+   67  ls
+   68  cat texto.txt
+   69  cat
+   70  ls
+   71  cat 
+   72  cat 
+   73  ls
+   74  echo 'texto.txt'
+   75  cat 'texto.txt'
+   76  cat > texto.txt
+   77  cat 'texto.txt'
+   78  cat >> texto.txt
+   79  cat texto.txt
+   80  cat > texto2.txt
+   81  ls
+   82  echo "" > readme.txt
+   83  ls
+   84  cad > 'readme 2.txt'
+   85  ls
+   86  ls
+   87  touch readme3.txt
+   88  ls
+   89  mkdir "curso nuevo"
+   90  ls
+   91  clear
+   92  ls
+   93  pwd
+   94  history
+   95  ls
+   96  pwd
+   97  cd teste
+   98  la
+   99  ls
+  100  cd ..
+  101  ls
+  102  history > historico.txt
+  103  cat historico.txt
+  104  ls
+  105  clear
+  106  cd ~
+  107  ls
+  108  clear
+  109  cd documents 
+  110  ls
+  111  cd cursos
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd totti
+  116  ls
+  117  cd programas
+  118  ls
+  119  cd git 
+  120  ls
+  121  cd ..
+  122  cd ..
+  123  cd ..
+  124  ls
+  125  mv totti cursos
+  126  ls
+  127  ls
+  128  mv totti cursos/
+  129  ls
+  130  ls 
+  131  clear 
+  132  git config --global user.name 'Abraham Rodriguez'
+  133  git config --global user.email 'rodriguezunexpo@gmail.com'
+  134  git config user.name
+  135  git config user.email
+  136  ls
+  137  cd documents
+  138  ls
+  139  cd cursos
+  140  ls
+  141  cd totti
+  142  ls
+  143   ls
+  144  mkadir Curso_Git
+  145  ls
+  146  ls
+  147  mkdir Curso_Git
+  148  ls
+  149  cd Curso_git
+  150  ls
+  151  clear
+  152  git config user.name
+  153  git init
+  154  git status
+  155  echo '#aprendendo usar o Git' > readme.md
+  156  git status
+  157  git add readme.md
+  158  git status
+  159  git commit -m 'commit inicial'
+  160  git status
+  161  echo '##Aula 1' >> readme.md
+  162  ls
+  163  git status 
+  164  echo 'Abraham Rodriguez' > participantes.txt
+  165  git status 
+  166  git add .
+  167  git status 
+  168  git status
+  169  git restore --staged  . 
+  170  git status
+  171  git commit -am 'Alteração no readme'
+  172  git status 
+  173  git add participantes.txt
+  174  git status 
+  175  git commit -m 'Adicionado participantes.txt'
+  176  history > Aula_3.txt
